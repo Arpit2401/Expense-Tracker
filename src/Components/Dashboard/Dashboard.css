@@ -1,0 +1,47 @@
+.heading{
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.heading h3{
+    margin: 0;
+}
+
+.heading p{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.panel-main{
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.panel-left, .panel-right{
+    width: 50%;
+    text-align: center;
+    box-shadow: inset -0.1rem -0.1rem 0.1rem rgb(180, 180, 180), inset 0.1rem 0.1rem 0.1rem rgb(238, 232, 232);
+}
+
+.panel-left h5, .panel-right h5{
+    margin-bottom: 0;
+}
+
+.panel-left p{
+    color: rgb(55, 255, 55);
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.panel-right p{
+    color: rgb(255, 65, 65);
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.4rem
+}

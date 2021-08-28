@@ -1,0 +1,27 @@
+.panel-history{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    border-top: .1rem solid rgb(180, 180, 180);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.panel-history::-webkit-scrollbar {
+    width: .2rem;
+  }
+  
+.panel-history::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+.panel-history::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+.panel-history::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

@@ -1,0 +1,17 @@
+.tab-div{
+    margin: 0.2rem;
+    box-shadow: inset 0rem -0.1rem 0.1rem rgb(180, 180, 180), inset 0.1rem 0.1rem 0.1rem rgb(238, 232, 232);
+    padding-left: 1rem;
+}
+
+.tab-div p{
+    width: 100%;
+    text-align: justify;
+    word-wrap: normal;
+}
+
+.tab-div span{
+    float: right;
+    font-weight: 550;
+    margin-right: 1rem;
+}

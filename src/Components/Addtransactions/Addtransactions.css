@@ -1,0 +1,84 @@
+.add-transaction{
+    width: 20rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    background-color:rgb(107, 233, 255);
+    font-weight: 600;
+    cursor: pointer;
+    margin: 2rem;
+    transition: ease-out 0.3s;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.add-transaction:hover{
+    box-shadow: inset 20rem 0 0 0 rgb(0, 194, 228);
+}
+
+.transaction-main{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+label{
+    margin-top: 1rem;
+    font-weight: 550;
+}
+
+input{
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+#text, #amount{
+    border: none;
+    border-bottom: 0.2rem solid rgb(0, 217, 255);
+    outline: none;
+}
+
+#expense{
+    margin-left: 2rem;
+}
+
+#income, #expense{
+    margin-right: 0.3rem;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+#submit-btn, #reset-btn{
+    margin: 2rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+#submit-btn{
+    background-color: lightgreen;
+    transition: ease-out 0.3s;
+}
+
+#submit-btn:hover{
+    box-shadow: inset 10rem 0 0 0 greenyellow;
+}
+
+#reset-btn{
+    background-color: rgb(255, 255, 103);
+    transition: ease-in 0.3s;
+}
+
+#reset-btn:hover{
+    box-shadow: inset 10rem 0 0 0 yellow;
+}

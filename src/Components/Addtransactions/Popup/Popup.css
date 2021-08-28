@@ -1,0 +1,44 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 3rem;
+    width: 80%;
+    max-width: 40rem;
+    background-color: #FFF;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(253, 43, 43);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    background-color: red;
+    font-size: 1.6rem;
+    width: 1.90rem;
+    height: 1.90rem;
+    right: 0.85rem
+}

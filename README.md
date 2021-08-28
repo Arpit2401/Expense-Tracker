@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Expense Tracker Created by Arpit Agarwal
+
+Add and Track all your incoming and outgoing transactions and calculate your net balance, credit and debit with all transactions listed in the history section. 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
